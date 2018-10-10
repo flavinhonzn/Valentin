@@ -1,0 +1,130 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+   max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    margin-bottom: -93px;
+    
+}
+
+header h1 {
+    margin: 0;
+    background-image: url(LG.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 76px;
+    margin-top: 10px;
+}
+
+header h1 span {
+    margin-left: 920px;
+}
+
+
+
+header nav ul {
+    padding-right: 80px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+header nav li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+
+header nav li a {
+    color: #fafafc;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 80px;
+}
+
+
+section#topo {
+    background-image: url(hero-image.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+
+section#topo .chamada {
+    color: #ffffff;
+    margin-top: 270px;
+    text-align: center;
+}
+
+
+section#topo .chamada h2 {
+    font-size: 46px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+section#topo .chamada p {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    opacity: 0.9;
+}
+
+
+.botao {
+    background-color: #fd646a;
+    display: inline-block;
+    padding-bottom: 14px;
+    padding-top: 14px; 
+    color: #fff0f1;
+    text-decoration: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 1px 0px;
+    width: 267px;
+    margin-top: 10px;
+       
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    
+    
+    header nav {
+        display: none;
+    }
+    
+    header h1 {
+        margin-left: 20px;
+    }
+    
+    header h1 span {
+        display: none;
+    }
+    .botao {
+        display: inline-block;
+    }
+    
+    section#topo {
+        width: 103%;
+        
+        
+    }
